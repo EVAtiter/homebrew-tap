@@ -5,21 +5,6 @@ EVA Titer が公開している macOS アプリを [Homebrew](https://brew.sh/) 
 
 ---
 
-## 使い方
-
-```bash
-brew tap EVAtiter/tap
-brew install --cask sendblocker
-```
-
-または 1 行で:
-
-```bash
-brew install --cask EVAtiter/tap/sendblocker
-```
-
----
-
 ## 配布アプリ
 
 ### SendBlocker
@@ -36,6 +21,21 @@ brew install --cask EVAtiter/tap/sendblocker
 
 > インストール後、**システム設定 → プライバシーとセキュリティ → アクセシビリティ**
 > で SendBlocker を許可してください。
+
+---
+
+## 使い方
+
+```bash
+brew tap EVAtiter/tap
+brew install --cask sendblocker
+```
+
+または 1 行で:
+
+```bash
+brew install --cask EVAtiter/tap/sendblocker
+```
 
 ---
 
