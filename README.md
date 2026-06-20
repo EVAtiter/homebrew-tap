@@ -22,9 +22,7 @@ brew install --cask EVAtiter/tap/sendblocker
 > インストール後、**システム設定 → プライバシーとセキュリティ → アクセシビリティ**
 > で SendBlocker を許可してください。
 
----
-
-## 使い方
+#### 使い方
 
 ```bash
 brew tap EVAtiter/tap
@@ -37,9 +35,7 @@ brew install --cask sendblocker
 brew install --cask EVAtiter/tap/sendblocker
 ```
 
----
-
-## アンインストール
+#### アンインストール
 
 ```bash
 brew uninstall --cask sendblocker
@@ -50,3 +46,5 @@ brew uninstall --cask sendblocker
 ```bash
 brew uninstall --zap --cask sendblocker
 ```
+
+---
