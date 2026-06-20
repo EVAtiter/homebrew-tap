@@ -48,3 +48,45 @@ brew uninstall --zap --cask sendblocker
 ```
 
 ---
+
+### CommandoTab
+
+マウスカーソルのいるモニターに表示される **Command+Tab 代替アプリスイッチャー**。
+マルチモニター環境でも、常にマウスのある画面にスイッチャーが出ます。
+
+- リポジトリ: [EVAtiter/CommandoTab-release](https://github.com/EVAtiter/CommandoTab-release)
+- 対応 OS: macOS 13 Ventura 以降 / Universal / Apple 公証済み
+
+```bash
+brew install --cask EVAtiter/tap/commandotab
+```
+
+> インストール後、**システム設定 → プライバシーとセキュリティ → アクセシビリティ**
+> で CommandoTab を許可してください。
+
+#### 使い方
+
+```bash
+brew tap EVAtiter/tap
+brew install --cask commandotab
+```
+
+または 1 行で:
+
+```bash
+brew install --cask EVAtiter/tap/commandotab
+```
+
+#### アンインストール
+
+```bash
+brew uninstall --cask commandotab
+```
+
+設定ファイルも含めて完全に削除する場合:
+
+```bash
+brew uninstall --zap --cask commandotab
+```
+
+---
