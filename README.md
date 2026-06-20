@@ -90,3 +90,46 @@ brew uninstall --zap --cask commandotab
 ```
 
 ---
+
+### FinderAlertMover
+
+Finder の確認ダイアログ（「置き換える」「ゴミ箱に移動」「コピー」「移動」など）を
+**マウスカーソル付近へ自動的に移動**させるユーティリティ。マルチモニター環境での
+ダイアログ探索のストレスを軽減します。
+
+- リポジトリ: [EVAtiter/FinderAlertMover-release](https://github.com/EVAtiter/FinderAlertMover-release)
+- 対応 OS: macOS 13 Ventura 以降 / Apple 公証済み
+
+```bash
+brew install --cask EVAtiter/tap/finderalertmover
+```
+
+> インストール後、**システム設定 → プライバシーとセキュリティ → アクセシビリティ**
+> で FinderAlertMover を許可してください。
+
+#### 使い方
+
+```bash
+brew tap EVAtiter/tap
+brew install --cask finderalertmover
+```
+
+または 1 行で:
+
+```bash
+brew install --cask EVAtiter/tap/finderalertmover
+```
+
+#### アンインストール
+
+```bash
+brew uninstall --cask finderalertmover
+```
+
+設定ファイルも含めて完全に削除する場合:
+
+```bash
+brew uninstall --zap --cask finderalertmover
+```
+
+---
