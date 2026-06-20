@@ -1,6 +1,6 @@
 cask "finderalertmover" do
   version "1.2.0"
-  sha256 "3729639a03ea2635a742d98d8190711a7253c840cd0bfacf4f11e6f62c903b3f"
+  sha256 "375a27996954b109d94d69e3ee1876d5f8b2bf74a214bd1bc3e5a9ef5e9ecbaa"
 
   url "https://github.com/EVAtiter/FinderAlertMover-release/releases/download/v#{version}/FinderAlertMover-#{version}.zip"
   name "FinderAlertMover"
