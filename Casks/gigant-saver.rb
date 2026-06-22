@@ -16,7 +16,5 @@ cask "gigant-saver" do
 
   screen_saver "GigantSaver.saver"
 
-  zap trash: [
-    "~/Library/Containers/com.apple.wallpaper.agent/Data/Library/Caches/com.apple.wallpaper.caches/screenSaver-",
-  ]
+  zap trash: "~/Library/Containers/com.apple.wallpaper.agent/Data/Library/Caches/com.apple.wallpaper.caches/screenSaver-"
 end
