@@ -4,7 +4,7 @@ cask "gigant-saver" do
 
   url "https://github.com/EVAtiter/gigant-saver-release/releases/download/v#{version}/GigantSaver-#{version}.zip"
   name "GigantSaver"
-  desc "Retro-futuristic liquid meter screen saver for macOS"
+  desc "Retro-futuristic liquid meter screen saver"
   homepage "https://github.com/EVAtiter/gigant-saver-release"
 
   livecheck do
