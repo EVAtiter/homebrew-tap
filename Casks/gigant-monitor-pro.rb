@@ -17,8 +17,8 @@ cask "gigant-monitor-pro" do
   app "Gigant Monitor Pro.app"
 
   zap trash: [
-    "~/Library/Preferences/com.slack-kingdom.GigantMonitor.pro.plist",
     "~/Library/Caches/com.slack-kingdom.GigantMonitor.pro",
+    "~/Library/Preferences/com.slack-kingdom.GigantMonitor.pro.plist",
     "~/Library/Saved Application State/com.slack-kingdom.GigantMonitor.pro.savedState",
   ]
 end
