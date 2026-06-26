@@ -19,6 +19,8 @@ cask "exif-renamer" do
 
   app "Exif-Renamer.app"
 
+  zap trash: "~/Library/Preferences/com.evatiter.exifrenamer.plist"
+
   caveats <<~EOS
     撮影日時メタを持たないファイルのフォールバック（macOS 作成日時の取得）に、
     Xcode Command Line Tools 付属の GetFileInfo を使用します。未導入の場合は
@@ -26,6 +28,4 @@ cask "exif-renamer" do
 
       xcode-select --install
   EOS
-
-  zap trash: "~/Library/Preferences/com.evatiter.exifrenamer.plist"
 end
