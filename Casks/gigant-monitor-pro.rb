@@ -1,6 +1,6 @@
 cask "gigant-monitor-pro" do
-  version "2.0.3"
-  sha256 "fdb34efbd473a5eef39f7c2713f23088ebc67345d23ef9759f26f997e5c29fe8"
+  version "2.0.4"
+  sha256 "c6bfbee9eed080e924c33be3d8208cfada618f8dfc9b2e131795b97ad19b6de0"
 
   url "https://github.com/EVAtiter/gigant-monitor-pro-release/releases/download/v#{version}/Gigant-Monitor-Pro-#{version}.zip"
   name "Gigant Monitor Pro"
@@ -12,6 +12,7 @@ cask "gigant-monitor-pro" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Gigant Monitor Pro.app"
