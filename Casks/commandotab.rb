@@ -1,6 +1,6 @@
 cask "commandotab" do
-  version "1.1.9"
-  sha256 "0f34900cc6ceff6387f8e2f44a0d392b26e46d0cecea164810742cb5dd8efa70"
+  version "1.1.10"
+  sha256 "90610616d3eedb14274ef17b3cd95f8f1ee5999a5a89ee45a30d6374611bab16"
 
   url "https://github.com/EVAtiter/CommandoTab-release/releases/download/v#{version}/CommandoTab-#{version}.zip"
   name "CommandoTab"
