@@ -1,6 +1,6 @@
 cask "gigant-saver" do
-  version "1.0.5"
-  sha256 "55d69901d0150a0630b106fd0cb0dde693e2269b965fbea5837209239f09a193"
+  version "1.0.6"
+  sha256 "5dd8ceaecb2ef6003a4340c242c996aa8c9d1387d4475722232aaa3e032f2a5b"
 
   url "https://github.com/EVAtiter/gigant-saver-release/releases/download/v#{version}/GigantSaver-#{version}.zip"
   name "GigantSaver"
