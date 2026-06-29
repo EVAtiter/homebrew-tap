@@ -1,6 +1,6 @@
 cask "sendblocker" do
-  version "1.0.4"
-  sha256 "2a16b2e5ce3ef7518866e02841a9050d24b54b295d0937c5b99474d458438276"
+  version "1.0.5"
+  sha256 "4365b8afe510f1cd09b92f8f17bbb2863eb4b612b2e28a32df858d4289aef2d4"
 
   url "https://github.com/EVAtiter/SendBlocker-release/releases/download/v#{version}/SendBlocker-#{version}.zip"
   name "SendBlocker"
