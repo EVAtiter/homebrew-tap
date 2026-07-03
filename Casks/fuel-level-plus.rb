@@ -1,10 +1,10 @@
 cask "fuel-level-plus" do
-  version "2.0.0"
-  sha256 "fa61e2047ebd783fe67e266278317339b42814c6e07297bb2e6a7a4bb184b453"
+  version "2.1.0"
+  sha256 "3780d64fef9fe43bbd9d22c2c303fe90a2ee6531d29e6294fdf98f204d038f13"
 
   url "https://github.com/EVAtiter/fuel-level-release/releases/download/v#{version}/Fuel-Level-Plus-#{version}.zip"
   name "Fuel Level Plus"
-  desc "Menu bar fuel gauge for free memory, plus a battery thermometer"
+  desc "Menu bar fuel gauge for free memory, plus battery thermometer and power meter"
   homepage "https://github.com/EVAtiter/fuel-level-release"
 
   livecheck do
