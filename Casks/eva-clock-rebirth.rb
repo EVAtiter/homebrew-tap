@@ -1,6 +1,6 @@
 cask "eva-clock-rebirth" do
-  version "2.9.8"
-  sha256 "ee40b8052af6ff26c3344323e0c06df10fd7c9f0a5bdd8896030fdf397c324ab"
+  version "2.10.0"
+  sha256 "ae351b7ee6791bab00a7faddb27013f8a471e165af50a87dd15ef5b25ac33a85"
 
   url "https://github.com/EVAtiter/EVA-Clock-Rebirth/releases/download/v#{version}/EVA-Clock-Rebirth-#{version}.zip"
   name "EVA Clock:Rebirth"
@@ -13,6 +13,7 @@ cask "eva-clock-rebirth" do
   end
 
   depends_on macos: :ventura
+  depends_on arch: :arm64
 
   app "EVA Clock Rebirth.app"
 
