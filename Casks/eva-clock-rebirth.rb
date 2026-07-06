@@ -1,6 +1,6 @@
 cask "eva-clock-rebirth" do
-  version "2.10.1"
-  sha256 "55dd529b59faf2863a86d211030b33b14b844c4915a80a676ea54f93e127c146"
+  version "2.10.2"
+  sha256 "96515cd12328a8c5c472b85faf81620aa26f8cd1e3ea54b6eb0438a454f5d567"
 
   url "https://github.com/EVAtiter/EVA-Clock-Rebirth/releases/download/v#{version}/EVA-Clock-Rebirth-#{version}.zip"
   name "EVA Clock:Rebirth"
