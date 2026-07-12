@@ -1,6 +1,6 @@
 cask "gigant-monitor-pro" do
-  version "2.0.5"
-  sha256 "ec4f3e0ea85ad041b623a6252e578900475f357a2f5250f988ed026d5a08358f"
+  version "2.0.6"
+  sha256 "40fb8f226d37f47da9b85897d33b2a3e0206f2cab2134f929fa0b8822f1b63d8"
 
   url "https://github.com/EVAtiter/gigant-monitor-pro-release/releases/download/v#{version}/Gigant-Monitor-Pro-#{version}.zip"
   name "Gigant Monitor Pro"
