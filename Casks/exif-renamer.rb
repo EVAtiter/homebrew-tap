@@ -1,6 +1,6 @@
 cask "exif-renamer" do
-  version "1.0.0"
-  sha256 "49bce59b5dbfff0ac40e1e2b2ed27cb42b62c75189517ea5479de8f292943681"
+  version "1.1.0"
+  sha256 "429b92b2a25efb66dc6693faa4f138c52ed8048df78dcb2e4e539ec7be419aaa"
 
   url "https://github.com/EVAtiter/exif-renamer-release/releases/download/v#{version}/Exif-Renamer-#{version}.zip"
   name "Exif-Renamer"
@@ -19,7 +19,10 @@ cask "exif-renamer" do
 
   app "Exif-Renamer.app"
 
-  zap trash: "~/Library/Preferences/com.evatiter.exifrenamer.plist"
+  zap trash: [
+    "~/Library/Preferences/com.slack-kingdom.exifrenamer.plist",
+    "~/Library/Preferences/com.evatiter.exifrenamer.plist",  # 旧 Bundle ID (v1.0.0 以前) の残置設定を掃除
+  ]
 
   caveats <<~EOS
     撮影日時メタを持たないファイルのフォールバック（macOS 作成日時の取得）に、
