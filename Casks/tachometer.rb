@@ -1,6 +1,6 @@
 cask "tachometer" do
-  version "1.0.0"
-  sha256 "983553c35f088c4fe6ae2ce218f1a42475125b57d1c6d78575a078f4e4685136"
+  version "1.0.1"
+  sha256 "3ff85a8e4d1db71954d3c226d8267d9105ca03871dc621ff1a54544eff20404f"
 
   url "https://github.com/EVAtiter/tachometer-release/releases/download/v#{version}/Tachometer-#{version}.zip"
   name "Tachometer"
