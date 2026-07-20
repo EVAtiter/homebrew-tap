@@ -1,10 +1,10 @@
 cask "tachometer" do
-  version "1.0.2"
-  sha256 "7e178f00cb7daac48363878733e13b23c2af1c812a5e7621cbbe88d143a55e7e"
+  version "1.1.0"
+  sha256 "3875bc1f99b91a789f7291adc05557aacecb3953d463dc2624087f5c1adf8359"
 
-  url "https://github.com/EVAtiter/tachometer-release/releases/download/v#{version}/Tachometer-#{version}.zip"
-  name "Tachometer"
-  desc "Network and disk traffic on four tachometer-style analog gauges"
+  url "https://github.com/EVAtiter/tachometer-release/releases/download/v#{version}/Tachometer-Plus-#{version}.zip"
+  name "Tachometer Plus"
+  desc "Network, disk, memory, and power on tachometer-style analog gauges"
   homepage "https://github.com/EVAtiter/tachometer-release"
 
   livecheck do
@@ -15,10 +15,12 @@ cask "tachometer" do
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
-  app "Tachometer.app"
+  app "Tachometer Plus.app"
 
   zap trash: [
-    "~/Library/Containers/com.slack-kingdom.tachometer.plus",
+    "~/Library/Preferences/com.slack-kingdom.tachometer.plus.plist",
     "~/Library/Saved Application State/com.slack-kingdom.tachometer.plus.savedState",
+    # v1.0.x (Sandbox 版) の残骸。v1.1.0 以降は Sandbox なしのため作られない。
+    "~/Library/Containers/com.slack-kingdom.tachometer.plus",
   ]
 end
