@@ -1,6 +1,6 @@
 cask "fuel-level-plus" do
-  version "2.9.0"
-  sha256 "07395eef3ca78f92e1b7d3011c3f8fe0293635e0494e41d5ed8ad94d63b81772"
+  version "2.9.1"
+  sha256 "570c6e12836c72acbefa2171c9a089feb6ec492842f41907ca8f54fb2948bb2f"
 
   url "https://github.com/EVAtiter/fuel-level-release/releases/download/v#{version}/Fuel-Level-Plus-#{version}.zip"
   name "Fuel Level Plus"
