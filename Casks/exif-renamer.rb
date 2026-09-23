@@ -1,6 +1,6 @@
 cask "exif-renamer" do
-  version "1.1.0"
-  sha256 "429b92b2a25efb66dc6693faa4f138c52ed8048df78dcb2e4e539ec7be419aaa"
+  version "1.2.0"
+  sha256 "d64b7f6bc5917d93dee4bb46ec7de11ee06aa553c07e7aaa3acd864e29ed0a77"
 
   url "https://github.com/EVAtiter/exif-renamer-release/releases/download/v#{version}/Exif-Renamer-#{version}.zip"
   name "Exif-Renamer"
