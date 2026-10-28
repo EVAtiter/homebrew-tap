@@ -14,8 +14,8 @@ cask "eva-clock-rebirth" do
   #  「No available cask」で壊れるため)。
   disable! date: "2026-07-30", because: :discontinued
 
-  depends_on macos: :ventura
   depends_on arch: :arm64
+  depends_on macos: :ventura
 
   app "EVA Clock Rebirth.app"
 
