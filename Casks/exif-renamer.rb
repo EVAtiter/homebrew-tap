@@ -21,8 +21,8 @@ cask "exif-renamer" do
   binary "exif-renamer"
 
   zap trash: [
+    "~/Library/Preferences/com.evatiter.exifrenamer.plist", # 旧 Bundle ID (v1.0.0 以前) の残置設定を掃除
     "~/Library/Preferences/com.slack-kingdom.exifrenamer.plist",
-    "~/Library/Preferences/com.evatiter.exifrenamer.plist",  # 旧 Bundle ID (v1.0.0 以前) の残置設定を掃除
   ]
 
   caveats <<~EOS
