@@ -12,8 +12,8 @@ cask "cursorbeacon" do
     strategy :github_latest
   end
 
-  depends_on macos: :ventura
   depends_on arch: :arm64
+  depends_on macos: :ventura
 
   app "CursorBeacon.app"
 
