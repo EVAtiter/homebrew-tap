@@ -1,6 +1,6 @@
 cask "cmdpath" do
-  version "1.0.0"
-  sha256 "4c6b43f06540dcbc91e0f6a8b97ae87af41ca98a4bb47cecdf2fab1d751feaca"
+  version "1.1.0"
+  sha256 "40170e9ab494381efa3c7db0a8d0f9ff4159d147641d21dc5c41f24c579d716b"
 
   url "https://github.com/EVAtiter/CmdPath-release/releases/download/v#{version}/CmdPath-#{version}.zip"
   name "CmdPath"
