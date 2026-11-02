@@ -1,6 +1,6 @@
 cask "cursorbeacon" do
-  version "1.3.1"
-  sha256 "5d604b5c60e87eeab1c9d9ce671fcb4a2593b4b982600717c182d95097075555"
+  version "1.3.2"
+  sha256 "0af76de2dedd376a4c9e37161df925e1db042c6faad4869802f48857c787a6cb"
 
   url "https://github.com/EVAtiter/CursorBeacon-release/releases/download/v#{version}/CursorBeacon-#{version}.zip"
   name "CursorBeacon"
