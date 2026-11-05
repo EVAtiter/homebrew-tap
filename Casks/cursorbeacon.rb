@@ -1,10 +1,10 @@
 cask "cursorbeacon" do
-  version "1.3.2"
-  sha256 "0af76de2dedd376a4c9e37161df925e1db042c6faad4869802f48857c787a6cb"
+  version "1.4.0"
+  sha256 "68686e0aac0bc0b255a4aa1ba646d9812593513cbe48b0d250aad2bdc305cec2"
 
   url "https://github.com/EVAtiter/CursorBeacon-release/releases/download/v#{version}/CursorBeacon-#{version}.zip"
   name "CursorBeacon"
-  desc "Enlarges the mouse cursor while the fn or right Option key is held"
+  desc "Highlights and enlarges the mouse cursor while a trigger key is held"
   homepage "https://github.com/EVAtiter/CursorBeacon-release"
 
   livecheck do
