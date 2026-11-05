@@ -12,10 +12,10 @@ cask "exif-renamer" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
   # 撮影日時の取得（exiftool）とロジック本体（php スクリプト）に依存する。
   # cask インストール時にこれらの formula が無ければ自動導入される。
   depends_on formula: ["exiftool", "php"]
-  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "Exif-Renamer.app"
