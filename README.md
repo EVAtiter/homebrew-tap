@@ -1,135 +1,84 @@
+[English](README.md) | [日本語](README.ja.md)
+
 # EVA Titer Homebrew Tap
 
-EVA Titer が公開している macOS アプリを [Homebrew](https://brew.sh/) で
-インストールするための tap です。
+A tap for installing EVA Titer's macOS apps with [Homebrew](https://brew.sh/).
 
 ---
 
-## 配布アプリ
-
-### SendBlocker
-
-指定したアプリでのみ **Return キーと Shift+Return キーの動作を入れ替える**
-メニューバー常駐ユーティリティ。チャットツールでの誤送信を防ぎます。
-
-- リポジトリ: [EVAtiter/SendBlocker-release](https://github.com/EVAtiter/SendBlocker-release)
-- 対応 OS: macOS 13 Ventura 以降 / Universal / Apple 公証済み
+## Installation
 
 ```bash
-brew install --cask EVAtiter/tap/sendblocker
+brew install --cask EVAtiter/tap/<cask>
 ```
 
-> インストール後、**システム設定 → プライバシーとセキュリティ → アクセシビリティ**
-> で SendBlocker を許可してください。
+Replace `<cask>` with a cask name from the app list below (for example, `brew install --cask EVAtiter/tap/sendblocker`).
 
-#### 使い方
+If Homebrew 7 or later reports an "untrusted tap", trust that cask first with the command below, then install again.
 
 ```bash
-brew tap EVAtiter/tap
-brew install --cask sendblocker
+brew trust --cask evatiter/tap/<cask>
 ```
 
-または 1 行で:
-
-```bash
-brew install --cask EVAtiter/tap/sendblocker
-```
-
-#### アンインストール
-
-```bash
-brew uninstall --cask sendblocker
-```
-
-設定ファイルも含めて完全に削除する場合:
-
-```bash
-brew uninstall --zap --cask sendblocker
-```
+For app-specific setup, such as granting Accessibility permission, see the README in each app's distribution repository (linked from the app name).
 
 ---
 
-### CommandoTab
+## Apps
 
-マウスカーソルのいるモニターに表示される **Command+Tab 代替アプリスイッチャー**。
-マルチモニター環境でも、常にマウスのある画面にスイッチャーが出ます。
+All apps are for Apple Silicon (arm64) only.
 
-- リポジトリ: [EVAtiter/CommandoTab-release](https://github.com/EVAtiter/CommandoTab-release)
-- 対応 OS: macOS 13 Ventura 以降 / Universal / Apple 公証済み
+| App | Description | Cask | macOS |
+| --- | --- | --- | --- |
+| [CmdPath](https://github.com/EVAtiter/CmdPath-release) | Brings back the folder path menu when you Command-click a Finder window title | `cmdpath` | 14 or later |
+| [CommandoTab](https://github.com/EVAtiter/CommandoTab-release) | A Command+Tab app switcher that appears on the display under the mouse | `commandotab` | 13 or later |
+| [CursorBeacon](https://github.com/EVAtiter/CursorBeacon-release) | Shows where the mouse cursor is while you hold the fn key (or the right Option key) | `cursorbeacon` | 13 or later |
+| [Exif-Renamer](https://github.com/EVAtiter/exif-renamer-release) | Renames photos and videos by their capture date (installs exiftool and php automatically) | `exif-renamer` | 13 or later |
+| [FinderAlertMover](https://github.com/EVAtiter/FinderAlertMover-release) | Moves Finder confirmation dialogs near the mouse cursor | `finderalertmover` | 27.2 or later |
+| [Fuel Level Plus](https://github.com/EVAtiter/fuel-level-release) | Shows free memory as a fuel gauge, plus a battery thermometer and a power meter | `fuel-level-plus` | 14 or later |
+| [Gigant Monitor Plus](https://github.com/EVAtiter/gigant-monitor-support) | A menu bar app that shows system activity on liquid meters | `gigant-monitor-plus` | 14 or later |
+| [GigantSaver](https://github.com/EVAtiter/gigant-saver-release) | A liquid meter screen saver | `gigant-saver` | 14 or later |
+| [SendBlocker](https://github.com/EVAtiter/SendBlocker-release) | Swaps Return and Shift+Return, only in the apps you choose | `sendblocker` | 13 or later |
+| [Tachometer Plus](https://github.com/EVAtiter/tachometer-release) | Shows CPU, GPU, network, and more on automotive-style gauges | `tachometer` | 14 or later |
 
-```bash
-brew install --cask EVAtiter/tap/commandotab
-```
+---
 
-> インストール後、**システム設定 → プライバシーとセキュリティ → アクセシビリティ**
-> で CommandoTab を許可してください。
-
-#### 使い方
-
-```bash
-brew tap EVAtiter/tap
-brew install --cask commandotab
-```
-
-または 1 行で:
+## Updating
 
 ```bash
-brew install --cask EVAtiter/tap/commandotab
-```
-
-#### アンインストール
-
-```bash
-brew uninstall --cask commandotab
-```
-
-設定ファイルも含めて完全に削除する場合:
-
-```bash
-brew uninstall --zap --cask commandotab
+brew upgrade --cask <cask>
 ```
 
 ---
 
-### FinderAlertMover
-
-Finder の確認ダイアログ（「置き換える」「ゴミ箱に移動」「コピー」「移動」など）を
-**マウスカーソル付近へ自動的に移動**させるユーティリティ。マルチモニター環境での
-ダイアログ探索のストレスを軽減します。
-
-- リポジトリ: [EVAtiter/FinderAlertMover-release](https://github.com/EVAtiter/FinderAlertMover-release)
-- 対応 OS: macOS 13 Ventura 以降 / Apple 公証済み
+## Uninstalling
 
 ```bash
-brew install --cask EVAtiter/tap/finderalertmover
+brew uninstall --cask <cask>
 ```
 
-> インストール後、**システム設定 → プライバシーとセキュリティ → アクセシビリティ**
-> で FinderAlertMover を許可してください。
-
-#### 使い方
+To remove settings files as well:
 
 ```bash
-brew tap EVAtiter/tap
-brew install --cask finderalertmover
-```
-
-または 1 行で:
-
-```bash
-brew install --cask EVAtiter/tap/finderalertmover
-```
-
-#### アンインストール
-
-```bash
-brew uninstall --cask finderalertmover
-```
-
-設定ファイルも含めて完全に削除する場合:
-
-```bash
-brew uninstall --zap --cask finderalertmover
+brew uninstall --zap --cask <cask>
 ```
 
 ---
+
+## Renamed casks
+
+| Old name | New name |
+| --- | --- |
+| `gigant-monitor-pro` | `gigant-monitor-plus` |
+
+The old name still resolves to the new cask.
+
+---
+
+## Discontinued apps
+
+- **EVA Clock Rebirth** (`eva-clock-rebirth`) — discontinued on 2026-07-30, and its cask is disabled. It can no longer be installed.
+
+---
+
+Copyright © 2026 EVA Titer. All rights reserved.
