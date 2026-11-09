@@ -30,6 +30,7 @@ brew trust --cask evatiter/tap/<cask 名>
 
 | アプリ | 説明 | cask 名 | 対応 OS |
 | --- | --- | --- | --- |
+| [Claude Meter](https://github.com/EVAtiter/ClaudeMeter-release) | Claude の今月の請求額・利用枠と、動いている Claude Code のセッションをメニューバーに出す | `claude-meter` | macOS 14 以降 |
 | [CmdPath](https://github.com/EVAtiter/CmdPath-release) | Finder のタイトルの ⌘＋クリックで、フォルダの階層メニューを出す | `cmdpath` | macOS 14 以降 |
 | [CommandoTab](https://github.com/EVAtiter/CommandoTab-release) | マウスのあるモニターに出る、Command+Tab の代わりのアプリスイッチャー | `commandotab` | macOS 13 以降 |
 | [CursorBeacon](https://github.com/EVAtiter/CursorBeacon-release) | fn キー（または右の Option キー）を押している間、マウスカーソルの居場所を示す | `cursorbeacon` | macOS 13 以降 |
