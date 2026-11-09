@@ -30,6 +30,7 @@ All apps are for Apple Silicon (arm64) only.
 
 | App | Description | Cask | macOS |
 | --- | --- | --- | --- |
+| [Claude Meter](https://github.com/EVAtiter/ClaudeMeter-release) | Shows this month's Claude spend, your usage limits, and the Claude Code sessions running now in the menu bar | `claude-meter` | 14 or later |
 | [CmdPath](https://github.com/EVAtiter/CmdPath-release) | Brings back the folder path menu when you Command-click a Finder window title | `cmdpath` | 14 or later |
 | [CommandoTab](https://github.com/EVAtiter/CommandoTab-release) | A Command+Tab app switcher that appears on the display under the mouse | `commandotab` | 13 or later |
 | [CursorBeacon](https://github.com/EVAtiter/CursorBeacon-release) | Shows where the mouse cursor is while you hold the fn key (or the right Option key) | `cursorbeacon` | 13 or later |
