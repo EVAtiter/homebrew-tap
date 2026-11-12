@@ -34,6 +34,7 @@ brew trust --cask evatiter/tap/<cask 名>
 | [CmdPath](https://github.com/EVAtiter/CmdPath-release) | Finder のタイトルの ⌘＋クリックで、フォルダの階層メニューを出す | `cmdpath` | macOS 14 以降 |
 | [CommandoTab](https://github.com/EVAtiter/CommandoTab-release) | マウスのあるモニターに出る、Command+Tab の代わりのアプリスイッチャー | `commandotab` | macOS 13 以降 |
 | [CursorBeacon](https://github.com/EVAtiter/CursorBeacon-release) | fn キー（または右の Option キー）を押している間、マウスカーソルの居場所を示す | `cursorbeacon` | macOS 13 以降 |
+| [DisplayKeeper](https://github.com/EVAtiter/DisplayKeeper-release) | ディスプレイの設定（解像度・回転・配置・ミラーリングなど）を確かめて保存し、ダブルクリックで元に戻す | `displaykeeper` | 14 以降 |
 | [Exif-Renamer](https://github.com/EVAtiter/exif-renamer-release) | 撮影日時で写真・動画のファイル名を付け直す（exiftool と php を自動で入れる） | `exif-renamer` | macOS 13 以降 |
 | [FinderAlertMover](https://github.com/EVAtiter/FinderAlertMover-release) | Finder の確認ダイアログを、マウスカーソルの近くへ移す | `finderalertmover` | macOS 27.2 以降 |
 | [Fuel Level Plus](https://github.com/EVAtiter/fuel-level-release) | 空きメモリーを燃料計で表示する（バッテリー温度計・消費電力計つき） | `fuel-level-plus` | macOS 14 以降 |
