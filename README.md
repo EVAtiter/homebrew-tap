@@ -34,6 +34,7 @@ All apps are for Apple Silicon (arm64) only.
 | [CmdPath](https://github.com/EVAtiter/CmdPath-release) | Brings back the folder path menu when you Command-click a Finder window title | `cmdpath` | 14 or later |
 | [CommandoTab](https://github.com/EVAtiter/CommandoTab-release) | A Command+Tab app switcher that appears on the display under the mouse | `commandotab` | 13 or later |
 | [CursorBeacon](https://github.com/EVAtiter/CursorBeacon-release) | Shows where the mouse cursor is while you hold the fn key (or the right Option key) | `cursorbeacon` | 13 or later |
+| [DisplayKeeper](https://github.com/EVAtiter/DisplayKeeper-release) | Saves, inspects and restores your displays' settings (resolution, rotation, arrangement, mirroring and more) | `displaykeeper` | 14 or later |
 | [Exif-Renamer](https://github.com/EVAtiter/exif-renamer-release) | Renames photos and videos by their capture date (installs exiftool and php automatically) | `exif-renamer` | 13 or later |
 | [FinderAlertMover](https://github.com/EVAtiter/FinderAlertMover-release) | Moves Finder confirmation dialogs near the mouse cursor | `finderalertmover` | 27.2 or later |
 | [Fuel Level Plus](https://github.com/EVAtiter/fuel-level-release) | Shows free memory as a fuel gauge, plus a battery thermometer and a power meter | `fuel-level-plus` | 14 or later |
