@@ -1,6 +1,6 @@
 cask "displaykeeper" do
-  version "1.0.0"
-  sha256 "346239c3490ff3371fddcc45765c3b2fe98f0fee6b8da9535f751605128605e3"
+  version "1.0.1"
+  sha256 "c3d39f057432fde442c0e0d4d11613e7bdf47faad344ab3494245eda1bd53b03"
 
   url "https://github.com/EVAtiter/DisplayKeeper-release/releases/download/v#{version}/DisplayKeeper-#{version}.zip"
   name "DisplayKeeper"
