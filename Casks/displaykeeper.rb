@@ -16,8 +16,10 @@ cask "displaykeeper" do
   depends_on macos: :sonoma
 
   app "DisplayKeeper.app"
+  binary "#{appdir}/DisplayKeeper.app/Contents/Resources/displaykeeper"
 
   zap trash: [
+    "~/Library/Caches/com.slack-kingdom.displaykeeper",
     "~/Library/Preferences/com.slack-kingdom.displaykeeper.plist",
     "~/Library/Saved Application State/com.slack-kingdom.displaykeeper.savedState",
   ]
