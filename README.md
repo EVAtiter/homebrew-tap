@@ -40,6 +40,7 @@ All apps are for Apple Silicon (arm64) only.
 | [Fuel Level Plus](https://github.com/EVAtiter/fuel-level-release) | Shows free memory as a fuel gauge, plus a battery thermometer and a power meter | `fuel-level-plus` | 14 or later |
 | [Gigant Monitor Plus](https://github.com/EVAtiter/gigant-monitor-support) | A menu bar app that shows system activity on liquid meters | `gigant-monitor-plus` | 14 or later |
 | [GigantSaver](https://github.com/EVAtiter/gigant-saver-release) | A liquid meter screen saver | `gigant-saver` | 14 or later |
+| [mirne mobile](https://github.com/EVAtiter/mirne-mobile) | Unofficial client for a nasne: program guide, recording schedules, and playback of recordings and live broadcasts (Japanese UI) | `mirne-mobile` | 15 or later |
 | [SendBlocker](https://github.com/EVAtiter/SendBlocker-release) | Swaps Return and Shift+Return, only in the apps you choose | `sendblocker` | 13 or later |
 | [Tachometer Plus](https://github.com/EVAtiter/tachometer-release) | Shows CPU, GPU, network, and more on automotive-style gauges | `tachometer` | 14 or later |
 
