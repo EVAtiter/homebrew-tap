@@ -1,6 +1,6 @@
 cask "claude-meter" do
-  version "1.7.0"
-  sha256 "d4eae50eaffa16402aba670376973333f8156c40a517fd23696304ac24d5e903"
+  version "1.7.1"
+  sha256 "315fcae3e0fce82e1cf06e180c43db36812b48094042f0ef2e848ae616f67970"
 
   url "https://github.com/EVAtiter/ClaudeMeter-release/releases/download/v#{version}/Claude-Meter-#{version}.zip"
   name "Claude Meter"
