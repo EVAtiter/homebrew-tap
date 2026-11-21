@@ -40,6 +40,7 @@ brew trust --cask evatiter/tap/<cask 名>
 | [Fuel Level Plus](https://github.com/EVAtiter/fuel-level-release) | 空きメモリーを燃料計で表示する（バッテリー温度計・消費電力計つき） | `fuel-level-plus` | macOS 14 以降 |
 | [Gigant Monitor Plus](https://github.com/EVAtiter/gigant-monitor-support) | システムの状況を液体メーターで表示するメニューバーアプリ | `gigant-monitor-plus` | macOS 14 以降 |
 | [GigantSaver](https://github.com/EVAtiter/gigant-saver-release) | 液体メーターのスクリーンセーバー | `gigant-saver` | macOS 14 以降 |
+| [mirne mobile](https://github.com/EVAtiter/mirne-mobile) | nasne の番組表・録画予約・録画とライブ放送の視聴（非公式） | `mirne-mobile` | macOS 15 以降 |
 | [SendBlocker](https://github.com/EVAtiter/SendBlocker-release) | 指定したアプリでだけ、Return と Shift+Return を入れ替える | `sendblocker` | macOS 13 以降 |
 | [Tachometer Plus](https://github.com/EVAtiter/tachometer-release) | CPU・GPU・ネットワークなどを、自動車のメーター風の計器で表示する | `tachometer` | macOS 14 以降 |
 
