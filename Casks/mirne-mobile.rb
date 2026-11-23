@@ -1,6 +1,6 @@
 cask "mirne-mobile" do
-  version "1.1.0"
-  sha256 "50c7fdb0aeafc82313ee6e48a4acd659c81d7465873b1013e9568d2dc26c4b2b"
+  version "1.2.0"
+  sha256 "3934865ad9f661a0c6ee6f912a5f6351ad5522633997242976eebe7fb82e4700"
 
   url "https://github.com/EVAtiter/mirne-mobile/releases/download/v#{version}/mirne-mobile-#{version}.zip"
   name "mirne mobile"
